@@ -1,0 +1,25 @@
+---
+title: "Price_and_Index_Reports"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Price_and_Index_Reports}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(b3archives)
+
+archive <- b3_indexreport_download(as.Date("2019-09-18"))
+df <- b3_indexreport_read(archive)
+file.remove(archive)
+dplyr::glimpse(df)
+
+```

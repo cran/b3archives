@@ -1,0 +1,16 @@
+a1668ff22a856941b2c1d5fed1f344d0 *DESCRIPTION
+0635a31b5dd9131b2302234bf68e8837 *NAMESPACE
+bcd580bf35d8ecab5a3729cabbe995d2 *R/b3_indexreport.R
+26d940cac3a96e5f425289c4576bd7f6 *R/b3_pricereport.R
+f899b6290414de5738dadcb02b342ed5 *README.md
+34c60f43e3b95c875bdf07998b75c507 *build/vignette.rds
+c8e0f26072fb375c52a69b77167a5ee3 *inst/doc/Price_and_Index_Reports.R
+de14f313d81d8858730df1d94daad78c *inst/doc/Price_and_Index_Reports.Rmd
+b36b729915a375773f4674c9b34bb46b *inst/doc/Price_and_Index_Reports.html
+e82eda5fd622576f16fea3ddea88ef7d *man/b3_indexreport_download.Rd
+423d14b4a969051416cd566dd4fb9f70 *man/b3_indexreport_read.Rd
+a97976ac44d31f8635ee796a7f9ff76b *man/b3_pricereport_download.Rd
+a9882bee8cf7b2cd7f9692832aa0f6b8 *man/b3_pricereport_read.Rd
+57469e97dbf8508b61e5290dee6ddf2f *tests/testthat.R
+a67fa85a06db4551fb283b360199371d *tests/testthat/test-b3_pricereport.R
+de14f313d81d8858730df1d94daad78c *vignettes/Price_and_Index_Reports.Rmd
